@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import {View, Text} from 'react-native';
 import {mediaDevices} from 'react-native-webrtc';
 import {joinRoom} from './config';
 const Main = () => {
@@ -36,7 +37,11 @@ const Main = () => {
     });
   }, []);
 
-  return null;
+  return (
+    <View>
+      <Text>What is real</Text>
+    </View>
+  );
 };
 
 export default Main;
