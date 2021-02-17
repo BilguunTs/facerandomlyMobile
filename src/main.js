@@ -2,7 +2,9 @@ import React, {useEffect, useState} from 'react';
 import {View, ScrollView} from 'react-native';
 import {mediaDevices, RTCView} from 'react-native-webrtc';
 //import {joinRoom} from './config';
-
+/**
+ * this is not official implementation for facerandomly only for testing purposes
+ */
 import IO from 'socket.io-client';
 import Peer from 'react-native-peerjs';
 /**Api config */
